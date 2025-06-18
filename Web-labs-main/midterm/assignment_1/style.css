@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+body{
+    background-color: black;
+    margin: 30px auto;
+    width: 70%;
+    min-height: 100vh;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
+    align-items: center;
+    height: 1200px;
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.image{
+    margin: 50px 50px;
+
+}
+.intro{
+    margin: 25px 50px;
+    padding: 25px 50px;
+}
+.hr-line{
+    
+    height: 4px;
+    background-color: rgb(25, 25, 25);
+    border: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 81, 255);
+    text-decoration: underline;
+
+}
+.CV{
+    
+    background-color: rgb(230, 228, 228);
+    height: 1200px;
+}
+.details{
+    display: flex;
+}
+.left{
+    width: 25%;
+    padding: 30px;
+    border-right: 2px solid black;
+    height: 800px;
+    
+}
+.right{
+    width: 65%;
+    padding: 30px;
+}
+
+
+
+
+

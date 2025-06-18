@@ -1,0 +1,23 @@
+
+
+<br>
+<h1 class="text-center">Our Products</h1>
+<br>
+<div class="row">
+  <% products.forEach(product => { %>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="<%= product.image %>" class="card-img-top" alt="Product Image">
+        <div class="card-body">
+          <h5 class="card-title"><%= product.title %></h5>
+          <p class="card-text"><%= product.description %></p>
+          <p class="card-text">$ <%= product.price %></p>
+          <form action="/cart/add/<%= product._id %>" method="POST">
+            <button type="submit" class="btn btn-primary">Add to Cart</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>
+

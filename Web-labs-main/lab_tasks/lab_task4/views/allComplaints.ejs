@@ -1,0 +1,6 @@
+<h2>All Complaints (Admin View)</h2>
+<ul>
+  <% complaints.forEach(c => { %>
+    <li><strong><%= c.userId.email %></strong> - <%= c.orderId %>: <%= c.message %> <em>(<%= c.timestamp.toLocaleString() %>)</em></li>
+  <% }) %>
+</ul>

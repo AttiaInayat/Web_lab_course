@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oasis</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <!-- Top Header -->
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-2 col-md-2" logo d-flex align-items-center">
+            <img src="images/logo.webp" alt="Oasis Logo" class="img-fluid  logo-img" />
+          </div>
+          <!-- Search Container -->
+          <div class="col-8 col-md-7">
+            <div class="search-container d-flex align-items-center">
+              <input
+                type="search"
+                placeholder="Search Products and Brands"
+                class="form-control border-0 shadow-none"
+              />
+              <img src="images/search.svg" alt="Search Icon" />
+            </div>
+          </div>
+          <!-- Icons -->
+          <div class="col-2 col-md-3 iconshead d-flex justify-content-end align-items-center gap-3">
+            <img src="images/user (1).svg" alt="User Icon" width="24" />
+            <img src="images/heart.svg" alt="Favourite Icon" width="24" />
+            <img src="images/shopping-bag.svg" alt="Shopping Bag Icon" width="24" />
+          </div>
+        </div>
+      </div>
+      <!-- Navigation Menu -->
+      <div class="bg-light">
+        <div class="container menu-head">
+          <nav>
+            <ul class="nav justify-content-center flex-nowrap ">
+              <li class="nav-item"><a class="nav-link" href="#">Sale</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">New In</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Clothing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Dresses</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoes &amp; Accessories</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Shop By Fit</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Winter</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Wedding</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Beauty</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Mens</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Marquee -->
+      <div class="marquee-container bg-light py-2">
+        <div class="container">
+          <div class="marquee-content">
+            <a href="#">Step Into Spring With 30% Off New Season Wardrobe | Shop Offer</a>
+            <a href="#">Extra 20% Off All Oasis | Code: EXTRA20 Shop Oasis00:07:27:47</a>
+            <a href="#">Up To 50% Off Oasis | Shop Offer</a>
+            <a href="#">Scene Stealing Styles | Shop Occasion</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Top Black Bar -->
+    <div class="blacktab text-center">
+      <a href="#">Unlimited Next Day Delivery £14.99 | Shop Now</a>
+    </div>
+
+    <!-- Product Categories -->
+    <div class="container py-4">
+      <div class="row   flex-nowrap row-cols-auto justify-content-center text-center gy-4 Productscategories">
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_BRAIDESMAID_ROUNDEL_700x700.webp"  class=" product-img" alt="Category 1" />
+          <p><a href="#">30% Off</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_DRESSES_ROUNDEL_700x700.webp"  class=" product-img" alt="Category 2" />
+          <p><a href="#">Up to 50% Off</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_JACKETS_ROUNDEL_700x700.webp"  class=" product-img" alt="Category 3" />
+          <p><a href="#">New In</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_KNITWEAR_ROUNDEL_700x700.webp"  class=" product-img" alt="Category 4" />
+          <p><a href="#">Dresses</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_OASIS_WK10_STEP_INTO_SPRING_ROUNDAL.webp"  class=" product-img" alt="Category 5" />
+          <p><a href="#">Tops</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_OASIS_WK10_UP_TO_50_OFF_ROUNDALNEW.webp"  class=" product-img" alt="Category 6" />
+          <p><a href="#">Knitwear</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_TOPS_ROUNDEL_700x700.webp"  class=" product-img" alt="Category 7" />
+          <p><a href="#">Jackets &amp; Coats</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_WK46_OA_HP_REFRESH_ROUNDEL_SHOES.webp"  class=" product-img" alt="Category 8" />
+          <p><a href="#">Trousers</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_WK46_OA_HP_REFRESH_ROUNDEL_TROUSERS.webp"  class=" product-img" alt="Category 9" />
+          <p><a href="#">Shoes</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_WK7_OA_NEW_IN_ROUNDAL.webp"  class=" product-img" alt="Category 10" />
+          <p><a href="#">Occasionwear</a></p>
+        </div>
+        <div class="col-6 col-md">
+          <img src="images/dbz_prod_WK7_OA_OCCASION_ROUNDAL.webp"  class=" product-img" alt="Category 11" />
+          <p><a href="#">Bridesmaid</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section (Slider) -->
+    <div class="slider">
+      <img src="images/banner1.webp" alt="Hero Banner" class="img-fluid w-100" />
+    </div>
+
+    <!-- Brand Carousel (Marquee Effect) -->
+    <div class="brandmarquee py-3">
+      <div class="container">
+        <div class="brandmarquee-content d-flex align-items-center gap-3">
+          <img src="images/brandlogo1.webp" alt="Brand 1" />
+          <img src="images/brandlogo2.webp" alt="Brand 2" />
+          <img src="images/brandlogo3.webp" alt="Brand 3" />
+          <img src="images/brandlogo4.webp" alt="Brand 4" />
+          <img src="images/brandlogo5.webp" alt="Brand 5" />
+          <img src="images/brandlogo6.webp" alt="Brand 6" />
+          <img src="images/brandlogo7.webp" alt="Brand 7" />
+          <!-- Duplicate images below for seamless marquee -->
+          <img src="images/brandlogo1.webp" alt="Brand 1 Duplicate" />
+          <img src="images/brandlogo2.webp" alt="Brand 2 Duplicate" />
+          <img src="images/brandlogo3.webp" alt="Brand 3 Duplicate" />
+          <img src="images/brandlogo4.webp" alt="Brand 4 Duplicate" />
+          <img src="images/brandlogo5.webp" alt="Brand 5 Duplicate" />
+          <img src="images/brandlogo6.webp" alt="Brand 6 Duplicate" />
+          <img src="images/brandlogo7.webp" alt="Brand 7 Duplicate" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sale Banner -->
+    <div class="salebanner">
+      <img src="images/salebanner.webp" alt="Sale Banner" class="img-fluid w-100" />
+    </div>
+
+    <!-- Model Banner Section -->
+    <div class="container my-4">
+      <div class="row modelsection g-3">
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="formodelbg model1 d-flex flex-column justify-content-end text-white"
+               style="background-image: url('images/model1.webp'); background-size: cover; height: 550px; padding: 30px;">
+            <h2>Dresses</h2>
+            <a href="#" class="btn btn-outline-light mt-3">Shop Now</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="formodelbg model2 d-flex flex-column justify-content-end text-white"
+               style="background-image: url('images/model2.webp'); background-size: cover; height: 550px; padding: 30px;">
+            <h2>Occasionwear</h2>
+            <a href="#" class="btn btn-outline-light mt-3">Shop Now</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="formodelbg model3 d-flex flex-column justify-content-end text-white"
+               style="background-image: url('images/model3.webp'); background-size: cover; height: 550px; padding: 30px;">
+            <h2>New Season</h2>
+            <a href="#" class="btn btn-outline-light mt-3">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sale Discount Banner -->
+    <div class="salebanner discountban">
+      <img src="images/salediscount.webp" alt="Discount Banner" class="img-fluid w-100" />
+    </div>
+
+    <!-- Product Section -->
+    <div class="container my-5 product-section">
+      <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+          <h2 class="fw-bold">Seasonal top picks</h2>
+          <p class="text-muted">Explore the latest trends at Oasis</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <div class="cat-buttons d-inline-flex gap-2">
+            <a href="#" class="btn btn-dark">Fashion</a>
+            <a href="#" class="btn btn-dark">Beauty</a>
+            <a href="#" class="btn btn-dark">Home</a>
+          </div>
+        </div>
+      </div>
+      <div class="row allproductsection g-4">
+        <!-- Repeat product card as needed -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product1 border p-3">
+            <div class="productimages position-relative mb-3">
+              <img src="images/p1.webp" alt="Product 1" class="img-fluid" />
+              <img
+                src="images/p11.webp"
+                alt="Product 1 Hover"
+                class="img-fluid position-absolute top-0 start-0 w-100"
+                style="opacity:0; transition: opacity 0.5s;"
+                onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0"
+              />
+            </div>
+            <div>
+              <h3 class="h6">Oasis</h3>
+              <p>Chiffon Ruffle Detail Midi Dress</p>
+              <div class="pricesall d-flex justify-content-between">
+                <div class="totalprice">
+                  <p class="saleprice text-danger mb-0">£52.00</p>
+                  <s class="actualprice text-muted ms-2">£59.00</s>
+                </div>
+                <div>
+                  <p class="discountpersent mb-0">Save 10%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Additional product cards (p2, p3, p4...) -->
+        <div class="col-12 col-sm-6 col-md-3">
+            <div class="product1 border p-3">
+              <div class="productimages position-relative mb-3">
+                <img src="images/p2.webp" alt="Product 2" class="img-fluid" />
+                <img
+                  src="images/p22.webp"
+                  alt="Product 2 Hover"
+                  class="img-fluid position-absolute top-0 start-0 w-100"
+                  style="opacity:0; transition: opacity 0.5s;"
+                  onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0"
+                />
+              </div>
+              <div>
+                <h3 class="h6">Oasis</h3>
+                <p>Chiffon Ruffle Detail Midi Dress</p>
+                <div class="pricesall d-flex justify-content-between">
+                  <div class="totalprice">
+                    <p class="saleprice text-danger mb-0">£52.00</p>
+                    <s class="actualprice text-muted ms-2">£59.00</s>
+                  </div>
+                  <div>
+                    <p class="discountpersent mb-0">Save 10%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="product1 border p-3">
+              <div class="productimages position-relative mb-3">
+                <img src="images/p3.webp" alt="Product 2" class="img-fluid" />
+                <img
+                  src="images/p33.webp"
+                  alt="Product 2 Hover"
+                  class="img-fluid position-absolute top-0 start-0 w-100"
+                  style="opacity:0; transition: opacity 0.5s;"
+                  onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0"
+                />
+              </div>
+              <div>
+                <h3 class="h6">Oasis</h3>
+                <p>Chiffon Ruffle Detail Midi Dress</p>
+                <div class="pricesall d-flex justify-content-between">
+                  <div class="totalprice">
+                    <p class="saleprice text-danger mb-0">£52.00</p>
+                    <s class="actualprice text-muted ms-2">£59.00</s>
+                  </div>
+                  <div>
+                    <p class="discountpersent mb-0">Save 10%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="product1 border p-3">
+            <div class="productimages position-relative mb-3">
+              <img src="images/p4.webp" alt="Product 2" class="img-fluid" />
+              <img
+                src="images/p44.webp"
+                alt="Product 2 Hover"
+                class="img-fluid position-absolute top-0 start-0 w-100"
+                style="opacity:0; transition: opacity 0.5s;"
+                onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0"
+              />
+            </div>
+            <div>
+              <h3 class="h6">Oasis</h3>
+              <p>Chiffon Ruffle Detail Midi Dress</p>
+              <div class="pricesall d-flex justify-content-between">
+                <div class="totalprice">
+                  <p class="saleprice text-danger mb-0">£52.00</p>
+                  <s class="actualprice text-muted ms-2">£59.00</s>
+                </div>
+                <div>
+                  <p class="discountpersent mb-0">Save 10%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more products similarly... -->
+      </div>
+    </div>
+
+    <!-- Second Hero Section (Slider) -->
+    <div class="slider">
+      <img src="images/2ndbanner.webp" alt="Hero Banner 2" class="img-fluid w-100" />
+    </div>
+
+    <!-- Discover Banner -->
+    <div class="salebanner pt-3">
+      <img src="images/discover.webp" alt="Discover Banner" class="img-fluid w-100" />
+    </div>
+
+    <!-- Favourite Brands Section -->
+    <div class="container my-5 fbsec">
+      <h3 class="text-center mb-4">Shop Our Favourite Brands</h3>
+      <div class="row fbsecimages g-2">
+        <div class="col-6 col-sm-3">
+          <a href="#"><img src="images/fb1.webp" alt="Favourite Brand 1" class="img-fluid" /></a>
+        </div>
+        <div class="col-6 col-sm-3">
+          <a href="#"><img src="images/fb2.webp" alt="Favourite Brand 2" class="img-fluid" /></a>
+        </div>
+        <div class="col-6 col-sm-3">
+          <a href="#"><img src="images/fb3.webp" alt="Favourite Brand 3" class="img-fluid" /></a>
+        </div>
+        <div class="col-6 col-sm-3">
+          <a href="#"><img src="images/fb4.webp" alt="Favourite Brand 4" class="img-fluid" /></a>
+        </div>
+      </div>
+      <p class="innercontainer text-center mt-4">
+        Welcome to Oasis, where effortless, everyday pieces combine for a curated wardrobe you'll love.
+        Explore our latest collections and discover hard-working, elevated feminine designs for busy moments and non-stop schedules.
+        Signature florals, art-inspired prints, trending colours and considered details breathe life into midi dresses, jumpsuits
+        and more, offering understated elegance you can always rely on. Update your wardrobe with versatile, new season
+        essentials you can dress up and down, time and time again.
+      </p>
+    </div>
+<!-- Subscription Section -->
+<div class="subscription py-5 bg-light subsform">
+    <div class="container">
+      <div class="row align-items-start g-4">
+        <!-- LEFT COLUMN -->
+        <div class="col-md-6">
+          <h3 class="fw-bold">Let's get to know each other</h3>
+          <p class="sp1 mb-0">
+            Sign up to receive emails from us, so you never miss out on the good stuff.
+          </p>
+        </div>
+  
+        <!-- RIGHT COLUMN -->
+        <div class="col-md-6">
+          <!-- Subscription Form -->
+          <form class="d-flex flex-wrap gap-2 mb-3">
+            <input
+              type="email"
+              placeholder="Please enter your email address"
+              class="form-control w-50"
+              required
+            />
+            <button type="submit" class="btn btn-dark">
+              SUBSCRIBE
+            </button>
+          </form>
+  
+          <!-- Privacy Text -->
+          <p class="privacy-text mb-0">
+            By submitting your details, you agree to receive marketing communications from Oasis
+            &amp; our Family of Brands by email. You can unsubscribe at any point. You also consent
+            to the use of your details in accordance with our
+            <a href="#">Privacy Policy</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <!-- Footer -->
+    <footer class="footer pt-5">
+      <div class="container footer-container pb-4 border-bottom">
+        <div class="row">
+          <div class="col-6 col-md-2 footer-section">
+            <h4>Shopping with Oasis</h4>
+            <ul>
+              <li><a href="#">Unlimited Delivery</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">DebenhamsPay+</a></li>
+              <li><a href="#">Klarna</a></li>
+              <li><a href="#">Student Beans</a></li>
+              <li><a href="#">UNiDAYS</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 footer-section">
+            <h4>Customer Care</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Return Your Order</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Returns Information</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 footer-section">
+            <h4>Privacy & Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">About Cookies</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Concessionaire Brands</a></li>
+              <li><a href="#">Product</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 footer-section">
+            <h4>More From Oasis</h4>
+            <ul>
+              <li><a href="#">About Oasis</a></li>
+              <li><a href="#">Careers At Oasis</a></li>
+              <li><a href="#">Modern Slavery Statement</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 footer-section social-section">
+            <h4>Follow Us On Social Media</h4>
+            <div class="social-icons d-flex gap-3 mb-3">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <h5>Download our app</h5>
+            <div class="app-links d-flex gap-2">
+              <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" /></a>
+              <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer bottom start -->
+<div class="footerbottom container text-center pt-4">
+    <!-- Brand Logos (First Row) -->
+    <div class="imagesfirstsection d-flex flex-wrap justify-content-center align-items-center gap-4 mb-4">
+      <img src="images/bl1.webp" alt="Debenhams" />
+      <img src="images/bl2.webp" alt="DP" />
+      <img src="images/bl3.webp" alt="Wallis" />
+      <img src="images/bl4.webp" alt="Coast" />
+      <img src="images/bl5.webp" alt="Burton" />
+      <img src="images/bl6.webp" alt="MissPap" />
+      <img src="images/bl7.webp" alt="Nasty Gal" />
+      <img src="images/bl8.webp" alt="Warehouse" />
+    </div>
+  
+    <!-- Payment Icons (Second Row) -->
+    <div class="imagessecondsection d-flex flex-wrap justify-content-center align-items-center gap-4 mb-4">
+      <img src="images/visa.webp" alt="Visa" />
+      <img src="images/master.webp" alt="MasterCard" />
+      <img src="images/americanexpress.webp" alt="American Express" />
+      <img src="images/master2.webp" alt="Master2" />
+      <img src="images/vise.webp" alt="Visa Electron" />
+      <img src="images/applepay.webp" alt="Apple Pay" />
+      <img src="images/pluspay.webp" alt="Plus Pay" />
+      <img src="images/paypal.webp" alt="PayPal" />
+      <img src="images/klarna.webp" alt="Klarna" />
+      <img src="images/clearpay.webp" alt="ClearPay" />
+    </div>
+  
+    <!-- Bottom Branding -->
+    <div class="bottonbranding">
+      <img src="images/bottomlogo.webp" alt="Oasis" />
+      <p>COPYRIGHT © 2025 OASIS</p>
+    </div>
+  </div>
+  <!-- Footer bottom end -->
+  
+    </footer>
+
+    <!-- Bootstrap Bundle (JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

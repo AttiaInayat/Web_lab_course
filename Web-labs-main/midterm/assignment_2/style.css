@@ -1,0 +1,354 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Geologica', sans-serif;
+  }
+  .innercontainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Top Header */
+
+  .top-header .logo img {
+    max-width: 120px;
+    height: auto;
+  }
+  .search-container {
+  background: #f2f2f2;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.search-container img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+  .iconshead img {
+    width: 24px;
+    height: 24px;
+  }
+  header .menu-head nav ul{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px;     */
+   
+}
+.menu-head  ul li {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.menu-head ul li:hover {
+    background-color: #F3F4F6;
+    transition: all 0.5s;
+}
+
+  .nav{
+    display: flex;
+  }
+  .nav-item a{
+    color: black;
+    white-space: nowrap;
+
+  }
+ 
+  
+
+  .nav-item a:hover{
+    color: black;
+    
+  }
+  
+  /* Marquee */
+  .marquee-container {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  .marquee-content {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+  }
+  .marquee-content a {
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Black Tab */
+  .blacktab {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: black;
+    padding: 10px 0;
+  }
+  .blacktab a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 12px;
+  }
+  
+  /* Product Categories */
+  .product-img {
+    width: 80px;
+    height: 80px;            /* Fixed height to match width */
+    object-fit: cover;        /* Ensures the image fills the circle */
+    border-radius: 50%;       /* Makes it a perfect circle */
+    display: block;           /* Inline-block or block to center with margin */
+    margin: 0 auto;
+  }
+  
+  
+  
+  .Productscategories p a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Hero Slider */
+  .slider img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Brand Carousel */
+  .brandmarquee-content {
+    gap: 50px;
+    animation: brandmarquee 10s linear infinite;
+  }
+  @keyframes brandmarquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .brandmarquee-content img {
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .brandmarquee-content img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Sale Banner */
+  .salebanner img {
+    width: 100%;
+    
+  }
+  
+  /* Model Section */
+ 
+  
+  .formodelbg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    
+      
+  }
+  
+  .formodelbg h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+  }
+  .formodelbg a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  /* Product Section */
+  .product-section .top-heading h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .product-section .top-heading p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+  .cat-buttons a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+  }
+  .product1 {
+    cursor: pointer;
+  }
+  .product1 .productimages img {
+    width: 100%;
+  }
+  .product1 .productimages .image2 {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .product1 .productimages .image2:hover {
+    opacity: 1;
+  }
+  .product1 .pricesall .discountpersent {
+    color: #f04d4d;
+  }
+  .product1 .pricesall .saleprice {
+    color: #f04d4d;
+    font-weight: 600;
+  }
+  
+  /* Favourite Brands */
+  .fbsec h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+  .fbsec p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 60px;
+  }
+ 
+  /* Subscription */
+  .subscription {
+    background-color: #F8F8F8;
+  }
+ .subsform {
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .privacy-text a{
+    color: black;
+  
+  }
+ 
+ .form-control{
+    padding: 8px 26px;
+  } 
+  /* Footer */
+  .footer-container {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-section h4,
+  .footer-section h5 {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .footer-section ul li {
+    margin-bottom: 6px;
+    
+  }
+
+  .footer-section ul li a {
+    font-size: 15px;
+    font-weight: 300;
+    list-style-type: none;
+    text-decoration: none;
+    transition: color 0.3s;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  .social-icons a {
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s;
+  }
+  .social-icons a:hover {
+    color: gray;
+  }
+  .app-links img {
+    width: 140px;
+  }
+  .footerbottom .imagesfirstsection,
+  .footerbottom .imagessecondsection {
+    gap: 10px;
+    
+    
+  }
+  .imagesfirstsection img,
+.imagessecondsection img {
+  height: 20px !important;
+  width: auto;
+  max-height: 20px;
+}
+
+  .bottonbranding img {
+    width: 100px;
+  }
+  .bottonbranding p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+    
